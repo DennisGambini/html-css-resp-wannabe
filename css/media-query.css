@@ -1,3 +1,46 @@
-body{
-    background-color: black;
+@media screen and (max-width: 420px) {
+    /* generali */
+    *{
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+    body{
+        font-size: 0.7em;
+    }
+    .container{
+        padding:10px;
+    }
+    .row{
+        margin-top: 0;
+        width: 100%;
+        display: flex;
+        flex-flow: column wrap;
+    }
+    .row img {
+        margin-top: 20px;
+        max-height: 80px;
+    }
+    hr{
+        background-color: #888;
+        border-color: #888;
+    }
+    #lezioni, #why{
+        background-color: #F2F2CD;
+    }
+    /* row delle sezioni */
+    #lezioni .row > .left, 
+    #lezioni .row > .right{
+        width: 100%;
+    }
+    #why .row > .first,
+    #why .row > .second,
+    #why .row > .third {
+          margin-top: 0px;
+    }
+    #steps .row > .left,
+    #steps .row > .central,
+    #steps .row > .right{
+          width: 100%;
+    }
 }
