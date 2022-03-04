@@ -130,6 +130,7 @@
     #why .row > .first,
     #why .row > .second,
     #why .row > .third {
+        margin-top: 0;
         width: calc(100% / 4)
     }
     #why h1{
@@ -152,4 +153,5 @@
     .row{
         font-size: 2vw;
     }
+    
 }
